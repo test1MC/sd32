@@ -31,7 +31,7 @@
         name="MadCap Statistics">
         <count
           count-type="total"
-          unit="segment">2</count>
+          unit="segment">4</count>
         <count
           count-type="x-subflow"
           unit="trans-unit">0</count>
@@ -55,12 +55,24 @@
             MadCap:matchPercent="0" /></target></trans-unit><trans-unit
         id="2"
         restype="x-xml-p"
-        phase-name="pretrans"><source>Delete this text and replace it with your own content.</source><seg-source><mrk
+        phase-name="pretrans"><source>Delete this text and replace it with your own content. new text</source><seg-source><mrk
             mtype="seg"
-            mid="1">Delete this text and replace it with your own content.</mrk></seg-source><target
+            mid="1">Delete this text and replace it with your own content.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">new text</mrk></seg-source><target
           state="needs-translation"><mrk
             mtype="seg"
             mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
             MadCap:segmentStatus="Untranslated"
             MadCap:matchPercent="0" /></target></trans-unit></body>
   </file>
